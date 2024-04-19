@@ -54,6 +54,16 @@ p {
     font-size: 16px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+}
+
+
 /* hero class style */
 .hero {
     height: 800px;
@@ -63,6 +73,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* div {
+    display: block;
+    unicode-bidi: isolate;
+} */
 
 .float-left {
     float: left;
@@ -129,6 +144,7 @@ p {
     max-width: 150px;
 }
 
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -144,6 +160,8 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
+    margin: 0 auto 30px auto;
+    width: 780px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -153,15 +171,18 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
+    margin: 0 auto 30px auto;
+    width: 780px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.social-media-madeting {
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
+    width: 780px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -170,20 +191,27 @@ p {
 
 .search-engine-optimization img {
     max-height: 200px;
+    float: left;
+
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right;
 }
 
-.social-media-madeting img {
+.social-media-marketing img {
     max-height: 200px;
+    float: left;
+    width: 50%;
 }
 
 /* h2 text selector */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    margin-left: 15rem; 
+    padding-left: 6rem;
 }
 
 .online-reputation-management h2 {
@@ -191,9 +219,21 @@ p {
     font-size: 36px;
 }
 
-.social-media-madeting h2 {
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    margin-left: 18rem; 
+    padding-left: 5rem;
+}
+
+.search-engine-optimization p {
+    margin-left: 15rem; 
+    padding-left: 6rem;
+}
+
+.social-media-marketing p {
+    margin-left: 18rem; 
+    padding-left: 5rem;
 }
 
 /* footer style selector */

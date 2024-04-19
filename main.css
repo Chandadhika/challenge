@@ -25,7 +25,7 @@ body {
 } 
 
 /* header div selector */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,12 +34,12 @@ body {
 }
 
 /* header div ul selector */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /* header div ul li selector */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
